@@ -7,6 +7,10 @@ Made with Tkinter and speedtest module.
 Made with Tkinter.
 ## 4. Timer
 Made with Tkinter and time modules.
+## 5. Dictionary
+Made with Tkinter module.
+## 6. To Do List
+Made with Tkinter module.
 ## ⭐[Click here](https://www.instagram.com/p/CSQkzz0o76b/) to view Rock Paper Scissor Game video.
 ## ⭐[Click here](https://www.instagram.com/p/CRnUZX8DdxM/) to view Internet Speed Tester Video.
 ## ⭐[Click here](https://www.instagram.com/p/CTtM867IQM6/) to view Tic Tac Toe Game Video.
