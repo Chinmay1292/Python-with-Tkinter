@@ -10,36 +10,36 @@ l = Label(root, text="Roll Dice", font=("Helvetica 18 bold"), fg="Red")
 l.pack()
 
 #load 1
-load = Image.open("C:\\Users\\HP\\Pictures\\dice1.jpg")
+load = Image.open("Dice Images\\dice1.jpg")
 load = load.resize((200, 200))
 one = ImageTk.PhotoImage(load)
  
 #load 2
-load = Image.open("C:\\Users\\HP\\Pictures\\dice2.jpg")
+load = Image.open("Dice Images\\dice2.jpg")
 load = load.resize((200, 200))
 two = ImageTk.PhotoImage(load)
 
 #load 3
-load = Image.open("C:\\Users\\HP\\Pictures\\dice3.jpg")
+load = Image.open("Dice Images\\dice3.jpg")
 load = load.resize((200, 200))
 three = ImageTk.PhotoImage(load)
 
 #load 4
-load = Image.open("C:\\Users\\HP\\Pictures\\dice4.jpg")
+load = Image.open("Dice Images\\dice4.jpg")
 load = load.resize((200, 200))
 four = ImageTk.PhotoImage(load)
 
 #load 5
-load = Image.open("C:\\Users\\HP\\Pictures\\dice5.jpg")
+load = Image.open("Dice Images\\dice5.jpg")
 load = load.resize((200, 200))
 five = ImageTk.PhotoImage(load)
 
 #load 6
-load = Image.open("C:\\Users\\HP\\Pictures\\dice6.jpg")
+load = Image.open("Dice Images\\dice6.jpg")
 load = load.resize((200, 200))
 six = ImageTk.PhotoImage(load)
 
-load = Image.open("C:\\Users\\HP\\Pictures\\black.jpg")
+load = Image.open("Dice Images\\black.jpg")
 load = load.resize((200, 200))
 black = ImageTk.PhotoImage(load)
 
