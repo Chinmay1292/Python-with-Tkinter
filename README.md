@@ -11,6 +11,8 @@ Made with Tkinter and time modules.
 Made with Tkinter module.
 ## 6. To Do List
 Made with Tkinter module.
+## 7. Color Game
+Made with Tkinter and Random Modules
 ## ⭐[Click here](https://www.instagram.com/p/CSQkzz0o76b/) to view Rock Paper Scissor Game video.
 ## ⭐[Click here](https://www.instagram.com/p/CRnUZX8DdxM/) to view Internet Speed Tester Video.
 ## ⭐[Click here](https://www.instagram.com/p/CTtM867IQM6/) to view Tic Tac Toe Game Video.
