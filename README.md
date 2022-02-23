@@ -18,6 +18,8 @@ Made with Tkinter and Random Modules
 ## ⭐[Click here](https://www.instagram.com/p/CTtM867IQM6/) to view Tic Tac Toe Game Video.
 ## ⭐[Click here](https://www.instagram.com/p/CUG9YPuovDq/) to view Timer Video.
 ### Installing Modules/Libraries
-Tkinter: pip install tk, PIL: pip install Pillow, Random: pip install random2
-speedtest: pip install speedtest-cli
-time: pip install times
+#### Tkinter: pip install tk
+#### PIL: pip install Pillow
+#### Random: pip install random2
+#### speedtest: pip install speedtest-cli
+#### time: pip install times
