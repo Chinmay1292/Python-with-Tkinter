@@ -14,3 +14,8 @@ bt4=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="4"
 bt5=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="5",command=lambda:btnClick(5),bg="powder blue").grid(row=2,column=1)
 bt6=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="6",command=lambda:btnClick(6),bg="powder blue").grid(row=2,column=2)
 subtraction=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="-",command=lambda:btnClick("-"),bg="powder blue").grid(row=2,column=3)
+
+bt1=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="1",command=lambda:btnClick(1),bg="powder blue").grid(row=3,column=0)
+bt2=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="2",command=lambda:btnClick(2),bg="powder blue").grid(row=3,column=1)
+bt3=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="3",command=lambda:btnClick(3),bg="powder blue").grid(row=3,column=2)
+multi=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="*",command=lambda:btnClick("*"),bg="powder blue").grid(row=3,column=3)
