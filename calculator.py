@@ -19,3 +19,23 @@ bt1=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="1"
 bt2=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="2",command=lambda:btnClick(2),bg="powder blue").grid(row=3,column=1)
 bt3=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="3",command=lambda:btnClick(3),bg="powder blue").grid(row=3,column=2)
 multi=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="*",command=lambda:btnClick("*"),bg="powder blue").grid(row=3,column=3)
+
+bt0=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="0",command=lambda:btnClick(0),bg="powder blue").grid(row=4,column=0)
+btclear=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="C",command=lambda:btnclear(),bg="powder blue").grid(row=4,column=1)
+btequals=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="=",command=lambda:btnequal(),bg="powder blue").grid(row=4,column=2)
+division=Button(cal,padx=16,pady=16,bd=8,fg="black",font=('arial',20,'bold'),text="/",command=lambda:btnClick("/"),bg="powder blue").grid(row=4,column=3)
+
+def btnClick(numbers):
+    global operator
+    operator=operator+str(numbers)
+    text_input.set(operator)
+def btnclear():
+    global operator
+    operator=""
+    text_input.set("")
+def btnequal():
+    global operator
+    sumup=str(eval(operator))
+    text_input.set(sumup)
+    operator=""
+cal.mainloop()
