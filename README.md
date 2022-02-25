@@ -15,11 +15,14 @@ Made with Tkinter module.
 Made with Tkinter and Random Modules
 ## 8. Calculator
 Made with Tkinter
+## 9. Currency Calculator
+Made with Tkinter
 ## ⭐[Click here](https://www.instagram.com/p/CSQkzz0o76b/) to view Rock Paper Scissor Game video.
 ## ⭐[Click here](https://www.instagram.com/p/CRnUZX8DdxM/) to view Internet Speed Tester Video.
 ## ⭐[Click here](https://www.instagram.com/p/CTtM867IQM6/) to view Tic Tac Toe Game Video.
 ## ⭐[Click here](https://www.instagram.com/p/CUG9YPuovDq/) to view Timer Video.
 ## ⭐[Click here](https://www.instagram.com/p/CSa0ACTodZV/) to view Calculator Video.
+## ⭐[Click here](https://www.instagram.com/p/CR5V59BIjGM/) to view Calculator Video.
 ### Installing Modules/Libraries
 #### Tkinter: pip install tk
 #### PIL: pip install Pillow
