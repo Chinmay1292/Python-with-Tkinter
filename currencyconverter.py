@@ -37,3 +37,40 @@ def RealTimeCurrencyConversion():
         new_amt = c.convert(from_currency,to_currency,float(Amount1_field.get()))
         new_amount = float("{:.4f}".format(new_amt))
         Amount2_field.insert(0, str(new_amount)) 
+
+
+def clear_all() : 
+	Amount1_field.delete(0, tk.END) 
+	Amount2_field.delete(0, tk.END)
+    
+    
+CurrenyCode_list = ["INR", "USD", "CAD", "CNY", "DKK", "EUR"]
+
+
+root.configure(background = '#e6e5e5') 
+root.geometry("700x400") 
+
+Label_1 =Label(root, font=('lato black', 27,'bold'), text="",padx=2,pady=2, bg="#e6e5e5",fg ="black")
+Label_1.grid(row=1, column=0,sticky=W)
+
+
+label1 = tk.Label(root,font=('lato black', 15,'bold'), text = "\t    Amount  :  ", bg="#e6e5e5",fg = "black") 
+label1.grid(row=2, column=0,sticky=W)
+
+label1 = tk.Label(root,font=('lato black', 15,'bold'), text = "\t    From Currency  :  ", bg="#e6e5e5",fg = "black") 
+label1.grid(row=3, column=0,sticky=W)
+
+label1 = tk.Label(root,font=('lato black', 15,'bold'), text = "\t    To Currency  :  ", bg="#e6e5e5",fg = "black") 
+label1.grid(row=4, column=0,sticky=W)
+
+label1 = tk.Label(root,font=('lato black', 15,'bold'), text = "\t    Converted Amount  :  ", bg="#e6e5e5",fg = "black") 
+label1.grid(row=8, column=0,sticky=W)
+
+
+Label_1 =Label(root, font=('lato black', 7,'bold'), text="",padx=2,pady=2, bg="#e6e5e5",fg ="black")
+Label_1.grid(row=5, column=0,sticky=W)
+
+Label_1 =Label(root, font=('lato black', 7,'bold'), text="",padx=2,pady=2, bg="#e6e5e5",fg ="black")
+Label_1.grid(row=7, column=0,sticky=W)
+
+
