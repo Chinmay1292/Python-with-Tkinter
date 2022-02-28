@@ -17,6 +17,8 @@ Made with Tkinter and Random Modules
 Made with Tkinter
 ## 9. Currency Calculator
 Made with Tkinter
+## 10. Slide Show
+Made with Tkinter and PIL
 ## ⭐[Click here](https://www.instagram.com/p/CSQkzz0o76b/) to view Rock Paper Scissor Game video.
 ## ⭐[Click here](https://www.instagram.com/p/CRnUZX8DdxM/) to view Internet Speed Tester Video.
 ## ⭐[Click here](https://www.instagram.com/p/CTtM867IQM6/) to view Tic Tac Toe Game Video.
