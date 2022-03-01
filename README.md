@@ -24,7 +24,7 @@ Made with Tkinter and PIL
 ## ⭐[Click here](https://www.instagram.com/p/CTtM867IQM6/) to view Tic Tac Toe Game Video.
 ## ⭐[Click here](https://www.instagram.com/p/CUG9YPuovDq/) to view Timer Video.
 ## ⭐[Click here](https://www.instagram.com/p/CSa0ACTodZV/) to view Calculator Video.
-## ⭐[Click here](https://www.instagram.com/p/CR5V59BIjGM/) to view Calculator Video.
+## ⭐[Click here](https://www.instagram.com/p/CR5V59BIjGM/) to view Currency Converter Video.
 ### Installing Modules/Libraries
 #### Tkinter: pip install tk
 #### PIL: pip install Pillow
