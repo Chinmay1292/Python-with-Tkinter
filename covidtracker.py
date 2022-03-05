@@ -50,7 +50,7 @@ def showdata():
         plt.ylabel('Cases(in millions)')
         plt.show()
     except Exception as e:
-        print("Enter correct details")
+        print("Please Enter correct details")
 
 
 Label(root, text="Enter all countries names\nfor whom you want get\nCovid-19 data", font="Helvetica 16 bold").pack()
