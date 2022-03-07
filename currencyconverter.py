@@ -4,7 +4,7 @@ import tkinter.messagebox
  
 root = tk.Tk() 
 
-root.title("GUI : Currency Conversion")
+root.title("Currency Converter")
 root.geometry("600x400")
 
 Tops = Frame(root,pady = 2, width =3000, height = 100, relief = "ridge")
