@@ -51,7 +51,7 @@ def real_time():
 if __name__ == '__main__':
     # application
     app = tkinter.Tk()
-    app.geometry("480x680")
+    app.geometry("480x480")
     app.title("Todolist Remainder")
     app.rowconfigure(0, weight=1)
 
@@ -63,7 +63,7 @@ if __name__ == '__main__':
     label = tkinter.Label(app, text="Enter work to do:",
                           wraplength = 200,
                           justify = tkinter.LEFT)
-    label_hour = tkinter.Label(app, text="Enter time (secondes)",
+    label_hour = tkinter.Label(app, text="Enter time (seconds):",
                                wraplength = 200,
                                justify = tkinter.LEFT)
     todo = tkinter.Entry(app, width=30)
