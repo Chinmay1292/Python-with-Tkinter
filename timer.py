@@ -12,7 +12,7 @@ root.geometry("300x150")
 # Using title() to display a message in
 # the dialogue box of the message in the
 # title bar.
-root.title("Time Counter")
+root.title("Timer")
 
 # Declaration of variables
 hour=StringVar()
