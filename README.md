@@ -33,4 +33,4 @@ Made with Tkinter and time
 #### PIL: pip install Pillow
 #### Random: pip install random2
 #### speedtest: pip install speedtest-cli
-#### time: pip install times
+#### time: pip install time
