@@ -28,7 +28,7 @@ Made with Tkinter and time
 ## ⭐[Click here](https://www.instagram.com/p/CSa0ACTodZV/) to view Calculator Video.
 ## ⭐[Click here](https://www.instagram.com/p/CR5V59BIjGM/) to view Currency Converter Video.
 ## ⭐[Click here](https://www.instagram.com/p/CTGlpEuo0S3/) to view Spinning Spiral Video.
-### Installing Modules/Libraries
+### Installing Python3 Modules/Libraries
 #### Tkinter: pip install tk
 #### PIL: pip install Pillow
 #### Random: pip install random2
